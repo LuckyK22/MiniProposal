@@ -28,7 +28,7 @@ function App() {
     },
     {
       image : "https://media.tenor.com/JHJUVySX_4YAAAAi/dovey-bunny-bite-butt-bite-butt.gif",
-      name : "You are not want to be mine ?"
+      name : "Don't You Wanna Be Mine ?"
     },
     {
       image : "https://media.tenor.com/idA5k-ZOELMAAAAi/milk-and-mocha.gif",
