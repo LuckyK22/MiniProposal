@@ -1,7 +1,6 @@
 
 import './App.css'
 import { useState } from 'react'
-import first from "./1.mp4"
 
 function App() {
 
@@ -48,12 +47,13 @@ function App() {
     setImage("https://media1.tenor.com/m/PmCzgZ6Z7qEAAAAC/eandl.gif")
     setEnable(true)
     setNo("I Love you Too")
+    document.body.style.backgroundColor = '#c941b9';
   }
 
 
   return (
     <>
-      <div>
+      <div className=''>
       <img className='w-48 rounded-xl m-auto' src={image} autoPlay={true} loop={true}/>
       <div className='mt-2 text-2xl font-semibold'>
         {text}
@@ -70,7 +70,6 @@ function App() {
         >
           Yes
         </button>
-        
         </div>
       </div>
     </>
